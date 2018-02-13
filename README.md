@@ -1,4 +1,4 @@
-# gl-react-hue-rotate ![](https://img.shields.io/npm/v/gl-react-hue-rotate.svg) ![](https://img.shields.io/badge/gl--react-2.1-05F561.svg) ![](https://img.shields.io/badge/gl--react-dom%20%7C%20native-f90.svg)
+# gl-react-hue-rotate ![](https://img.shields.io/npm/v/gl-react-hue-rotate.svg) ![](https://img.shields.io/badge/gl--react-3-05F561.svg) ![](https://img.shields.io/badge/gl--react-dom%20%7C%20native-f90.svg)
 
 [Universal](https://projectseptemberinc.gitbooks.io/gl-react/content/docs/universal.html) gl-react **Hue Rotate effect**
 
