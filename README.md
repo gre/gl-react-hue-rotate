@@ -10,8 +10,6 @@
 ## Usage Examples
 
 ```js
-var HueRotate = require("gl-react-hue-rotate").HueRotate;
-// or
 import { HueRotate } from "gl-react-hue-rotate";
 ```
 
