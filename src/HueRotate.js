@@ -1,9 +1,7 @@
 const GL = require("gl-react");
 const React = require("react");
 
-const {
-  PropTypes
-} = React;
+import PropTypes from 'prop-types';
 
 const shaders = GL.Shaders.create({
   HueRotate: {

@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/gre/gl-react-hue-rotate/issues"
   },
-  "homepage": "https://github.com/gre/gl-react-hue-rotate#readme"
+  "homepage": "https://github.com/gre/gl-react-hue-rotate#readme",
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  }
 }
