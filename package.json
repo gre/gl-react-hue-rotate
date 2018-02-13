@@ -1,6 +1,6 @@
 {
   "name": "gl-react-hue-rotate",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Universal gl-react Hue Rotate effect",
   "main": "lib/index.js",
   "scripts": {
