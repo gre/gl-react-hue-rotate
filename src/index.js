@@ -1,3 +1,2 @@
-module.exports = {
-  HueRotate: require("./HueRotate")
-};
+import HueRotate from "./HueRotate";
+export { HueRotate };

@@ -1,9 +1,8 @@
-const GL = require("gl-react");
-const React = require("react");
+import React from "react";
+import { Node, Shaders } from "gl-react";
+import PropTypes from "prop-types";
 
-import PropTypes from 'prop-types';
-
-const shaders = GL.Shaders.create({
+const shaders = Shaders.create({
   HueRotate: {
     frag: `precision highp float;
 varying vec2 uv;
@@ -25,16 +24,13 @@ void main() {
   }
 });
 
-module.exports = GL.createComponent(
-  ({ hue, children: t }) =>
-  <GL.Node
-    shader={shaders.HueRotate}
-    uniforms={{ t, hue }}
-  />,
-{
-  displayName: "HueRotate",
-  propTypes: {
+export default class HueRotate extends Component {
+  static propTypes = {
     children: PropTypes.any.isRequired,
     hue: PropTypes.number.isRequired
+  };
+  render() {
+    const { hue, children: t } = this.props;
+    return <Node shader={shaders.HueRotate} uniforms={{ t, hue }} />;
   }
-});
+}
