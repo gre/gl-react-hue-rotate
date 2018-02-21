@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Node, Shaders } from "gl-react";
 import PropTypes from "prop-types";
 
